@@ -1,0 +1,55 @@
+<!doctype html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<title>UP2108568 Pet Game</title>
+	<h1>UP2108568 Pet Game</h1>
+</head>
+
+<body>
+
+	<div>
+		<button class=menuButtons id=start>Start Game</button>
+		<button class=menuButtons id=replay>Play Again</button><br>
+	</div>
+
+	<div id=petStatus>
+		<label for=status>Pet Status:</label>
+		<input id=status type=text disabled><br>
+		<label class = timer for=time>Your Pet has lived for:</label>
+		<input class = timer id=time type=text disabled placeholder=0>
+		<label class = timer for=time type=text disabled>seconds.</label>
+	</div>
+
+	
+	<div id=namingGroup>
+		<label for=nameInput>Woof! My name is:</label>
+		<input id=nameInput type=text placeholder="No Name :(">
+		<button class=nameButtons id='namePet' >Name Pet</button> 
+		<button class=nameButtons id=clearName>Rename</button>
+		<br id='nameBreak'>
+	</div>	
+
+	<div id=wellbeing>
+		<img src="pet.svg">	
+		<label for=food class=wellLabel>Food</label><br>
+		<meter id=food low=30 min=0 max=100 value=100>Food</meter>
+		<button class=meterButtons id=feedButton>Feed</button> <br>
+
+		<label for=sleep class=wellLabel>Sleep</label><br>
+		<meter id=sleep low=30 min=0 max=100 value=100>Sleep</meter>
+		<button class=meterButtons id=sleepButton>Sleep</button><br>
+		
+		<label for=cleanliness class=wellLabel>Cleanliness</label><br>
+		<meter id=cleanliness low=30 min=0 max=100 value=100>Cleanliness</meter>
+		<button class=meterButtons id=washButton>Wash</button><br>
+		
+		<label for=happiness class=wellLabel>Happiness</label><br>
+		<meter id=happiness low=30 min=0 max=100 value=100>Happiness</meter> <br>
+	</div>	
+
+	<script src="index.js"></script>
+
+</body>

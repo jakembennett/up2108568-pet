@@ -1,0 +1,68 @@
+<svg viewBox="20 25 40 35" style='border: none;' xmlns='http://www.w3.org/2000/svg'>
+	
+<!-- grid -->
+<!--   <rect width = '100' height = '100' fill = 'lightskyblue'/>
+   <path stroke = 'blue' stroke-width='.02' d='M10 0 V100'/>
+   <path stroke = 'blue' stroke-width='.02' d='M20 0 V100'/>
+   <path stroke = 'blue' stroke-width='.02' d='M30 0 V100'/>
+   <path stroke = 'blue' stroke-width='.02' d='M40 0 V100'/>
+   <path stroke = 'blue' stroke-width='.02' d='M50 0 V100'/>
+   <path stroke = 'blue' stroke-width='.02' d='M60 0 V100'/>
+   <path stroke = 'blue' stroke-width='.02' d='M70 0 V100'/>
+   <path stroke = 'blue' stroke-width='.02' d='M80 0 V100'/>
+   <path stroke = 'blue' stroke-width='.02' d='M90 0 V100'/>
+   <path stroke = 'blue' stroke-width='.02' d='M100 0 V100'/>
+   
+   <path stroke = 'blue' stroke-width='.02' d='M0 10 H100'/>
+   <path stroke = 'blue' stroke-width='.02' d='M0 20 H100'/>
+   <path stroke = 'blue' stroke-width='.02' d='M0 30 H100'/>
+   <path stroke = 'blue' stroke-width='.02' d='M0 40 H100'/>
+   <path stroke = 'blue' stroke-width='.02' d='M0 50 H100'/>
+   <path stroke = 'blue' stroke-width='.02' d='M0 60 H100'/>
+   <path stroke = 'blue' stroke-width='.02' d='M0 70 H100'/>
+   <path stroke = 'blue' stroke-width='.02' d='M0 80 H100'/>
+   <path stroke = 'blue' stroke-width='.02' d='M0 90 H100'/>
+   <path stroke = 'blue' stroke-width='.02' d='M0 100 H100'/> -->
+		
+<!-- left eye	 -->
+	<path d='M31 40.5 C30.7 38.5 35.2 38 35.2 41' stroke = 'black' stroke-width = '0.2'/>
+	<path d='M31.2 40.5 C31.2 41.5 35.2 41.5 35.2 41' stroke = 'black' stroke-width = '0.2'/>
+   <circle cx='33.2' cy='40' r='1' stroke = 'saddlebrown' stroke-width='.4'/>
+	<circle cx='33.45' cy='39.5' r='0.3' fill='white'/>
+	
+<!-- right eye	 -->
+	<path d='M47.2 40.5 C47.5 38.5 42 38 43 41' stroke = 'black' stroke-width = '0.2' fill='black'/>
+	<path d='M47 40.5 C47 41.5 43 41.5 43 41' stroke = 'black' stroke-width = '0.2'/>
+   <circle cx='45' cy='40' r='1' stroke = 'saddlebrown' stroke-width='.4'/>
+	<circle cx='45.25' cy='39.5' r='0.3' fill='white'/>
+			
+<!-- head -->
+   <g fill='none' stroke='black' stroke-width='0.5' stroke-linecap='round' fill-rule='nonzero'>
+	   <path d='M31.2 32 C33 29.5 47 29.5 47.5 32 
+		M31.2 32 C27 34 32 48 29 49 
+		M30 48 C32 50 33 51 34.5 55 
+		M49 48 C46.5 50 46 51 44.75 55 
+		M47.5 32 C50 33 47 48  50 49 
+	   M34.5 55 C36 56 36 55 39.5 53 
+		M39.5 53 C41 53 43 57 44.75 55' />
+	
+
+	<!-- ears -->
+		<path d='M31.2 32 C19 31 25 48 29 49
+		M47.5 31.5 C57 30 56 43 50.25 49.1'/>
+				
+				
+<!-- mouth -->
+	   <path d='M35.5 55.5 C37 58 42 58 44 55.5'/>
+				
+	</g>
+	
+
+<!-- Nose -->
+ 	<circle cx='39.5' cy='51' r='2' fill='black'/>	
+				
+<!-- Mouth -->
+	
+	
+</svg>
+   
