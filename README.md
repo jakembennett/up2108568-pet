@@ -1,2 +1,7 @@
-# pet
-Pet Game
+1. 'npm run i' or 'npm run setup' will install the necessary node modules and 'npm start' will start the server. The app is reachable via port 8080.
+2. It is recommended that the pet is named before pressing start game. To name the pet, click in the borderless input box where the placeholder is 'No Name :(' and then click on the button 'Name Pet'.
+3. To rename the pet, click the 'Rename' button, tpye the new name in the input box and again press the 'Name Pet' button.
+4. The status of the pet can be either alive or dead. The pet can only die when the 'Happiness' bar reaches 0, this means that the values of food, sleep, and cleanliness are all 0 as happiness is the mean of the three.
+5. The maximum of all 4 bars is 100. The food, sleep, and cleanliness bars are all set to decrease at a random value between 1-10 per second, this is so the game is different almost every time it is played. I could have also made it so that, when their respective buttons are pressed, each bar also goes up by a random value, however I decided to set it at 5 to not frustrate the player.
+6. I decided to add a timer during the game so that the player can know in real time how well they are doing, as well as a pop up message after the pet dies to tell the player how long the pet lived in total. One thing I would have liked to have implemented is a 'High Score' feature.
+7. Other features that I would like to add in the future include: Animations for each interaction, e.g eating, sleeping, and washing; a login system so that different players can track their own pet's high score; a way for the user to choose what type of pet they want, e.g dog, cat, horse etc.
